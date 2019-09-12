@@ -1,0 +1,10 @@
+  #!/usr/bin/perl
+  use strict;
+  use warnings;
+
+  my $string = 'WHO RUN THIS COUNTRY';
+  my $char = 'R';
+
+  my $result = index($string, $char);
+
+  print "Result: $result\n";
